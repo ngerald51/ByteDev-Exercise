@@ -9,7 +9,6 @@ It should return the factorial of that number.
 Fibonnanci.py:
 A function that takes in a number.
 This function should print the Fibonacci Sequence up to, but not including, that number.
-
 Each number should be printed on a new line.
 
 Palindrom.py
@@ -26,11 +25,9 @@ Scramble.py
 A function that will take two arguments.
 Both arguments will be strings.
 The function will return a list containing all the letters found in both strings.
-All the letters returned should be lowercase.
-There should be no duplicate letters in the list returned by your funciton.
+All the letters returned should be lowercase. There should be no duplicate letters in the list returned by your funciton.
 
 PrimeFactor.py
 The largest prime factor of a integer is the largest prime number than can divide the integer into another integer.
-A function that will take an integer as an argument.
-The function will return the largest prime factor of the passed in integer.
+A function that will take an integer as an argument. The function will return the largest prime factor of the passed in integer.
 If the integer is prime itself, then it is the largest prime factor of itself.
