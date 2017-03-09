@@ -1,10 +1,12 @@
-def is_palindrome(string):
-    reverse = ""
-    reverse = string[::-1]
-    if reverse == string:
-        return True
-    else:
-        return False
 
+def fibonacci(num):
+    (a, b, sum) = (0, 1, 0)
+    while a <= num - 1:
+        print (a)
+        if a % 2 == 0:
+            sum += a
+        (a, b) = (b, a + b)
 
-print(is_palindrome("ALAN"))
+    return sum
+
+print (fibonacci(10))
