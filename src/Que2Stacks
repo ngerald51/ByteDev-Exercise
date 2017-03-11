@@ -1,0 +1,15 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+q = input()
+
+myqueue = []
+
+for i in range(int(q)):
+    mycommand = [int(i) for i in input().split(' ')]
+    #print(mycommand)
+    
+    if mycommand[0] == 1:
+        myqueue.append(mycommand[1])
+    elif mycommand[0] == 2:
+        myqueue.pop(0)
+    else:
+        print(myqueue[0])
